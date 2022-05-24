@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<SplitPane dividerPositions="0.38190954773869346" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MCQuestionSceneController">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <children>
+            <Label fx:id="Question" alignment="CENTER" layoutX="3.0" layoutY="1.0" prefHeight="148.0" prefWidth="592.0" text="You're in the Multiple Choice section. Press Any Button to begin" textFill="#1561a3" />
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <children>
+            <Button fx:id="OptionA" layoutY="5.0" mnemonicParsing="false" onAction="#aPressed" prefHeight="114.0" prefWidth="295.0" text="A" />
+            <Button fx:id="OptionB" layoutX="294.0" layoutY="5.0" mnemonicParsing="false" onAction="#bPressed" prefHeight="114.0" prefWidth="303.0" text="B" />
+            <Button fx:id="OptionC" layoutX="-6.0" layoutY="120.0" mnemonicParsing="false" onAction="#cPressed" prefHeight="122.0" prefWidth="303.0" text="C" />
+            <Button fx:id="OptionD" layoutX="294.0" layoutY="120.0" mnemonicParsing="false" onAction="#dPressed" prefHeight="122.0" prefWidth="303.0" text="D" />
+         </children></AnchorPane>
+  </items>
+</SplitPane>

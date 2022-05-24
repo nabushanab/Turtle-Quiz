@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" prefHeight="68.0" prefWidth="600.0" text="Players" textAlignment="CENTER">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#71898d" offset="0.4866666666666667" />
+                  <Stop color="#7c9fa4" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" prefHeight="272.0" prefWidth="600.0" text="1. John Smith &#10;2. Albert &#10;">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </TextArea>
+      <TextField prefHeight="63.0" prefWidth="600.0" promptText="Username" />
+   </children>
+</VBox>
